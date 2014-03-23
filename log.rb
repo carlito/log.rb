@@ -4,7 +4,7 @@ args = ARGV;
 
 def log(args)
   
-  logs_location     = Dir.home + '/Dropbox/worklog/'
+  logs_location     = Dir.home + '/Dropbox/Logs/'
   file_extension    = 'txt'
   date_format       = '%Y-%m-%d'
   time_format       = '%H:%M:%S'
@@ -27,6 +27,7 @@ def log(args)
     success_msg_2 = 'Your log: ' + new_entry
     puts success_msg_1.colorize(32)
     puts success_msg_2.colorize(90)
+    
   end
 
 end
